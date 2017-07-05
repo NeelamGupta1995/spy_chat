@@ -2,6 +2,8 @@ from spy_database import spy_details_dict, spy_friend_dict, friends_list, spy_ch
 from steganography.steganography import Steganography   # for encode and decode a msg
 from datetime import datetime      # for date and time
 
+
+# Learning Commits
 def menu_choices(spy_name):    # spy choices from main menu
     while True:
         spy_choice = spy_menu(spy_name)     # spy menu
